@@ -7,6 +7,21 @@
 }
 
 body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+
   color: var(--text);
-  background-image: url("background.jpg");
+  background-color: var(--background);
+}
+
+div.box {
+  width: 75%;
+  min-height: 50px;
+
+  margin: auto;
+  margin-top: 10px;
+
+  background-color: var(--background-2);
+  border: 5px solid var(--borders);
+  border-radius: 15px;
 }
