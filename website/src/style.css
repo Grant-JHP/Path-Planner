@@ -1,0 +1,12 @@
+:root {
+  --background: #e8f5ffff;
+  --background-2: #afdbf5ff;
+  --borders: #6e92baff;
+  --text: #2c497fff;
+  --accent: #fcf75eff;
+}
+
+body {
+  color: var(--text);
+  background-image: url("background.jpg");
+}
