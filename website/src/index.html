@@ -6,21 +6,72 @@
 
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="./animations.css" />
     
     <title>Path Planner</title>
   </head>
   <body>
 
-    <div class="box">
+    <div class="glass">
+
+      <h1>THS Path Planner</h1>
+
+      <img src="school_logo.png" />
+
+      <hr />
+
+      <label for="inputClass">Starting Room:</label>
+      <input id="inputClass" list="classData" type="text" autocomplete="off" />
+
+      <datalist id="classData">
+        <option value="Room A" />
+        <option value="Room B" />
+        <option value="Room C" />
+      </datalist>
+
+      <label for="inputDist">Ideal Distance:</label>
+      <input id="inputDist" type="number" />
+
+      <button onclick="GenRoutes()">Generate Routes</button>
+      <button onclick="location.reload()">Clear Results</button>
+
+      <hr />
+
+    </div>
+
+    <!-- <div class="border">
       <h1>THS Path Planner</h1>
 
       <img src="school_logo.png" alt="School Logo" />
     </div>
 
-    <div class="box">
+    <div class="border">
+      <div id="selectClass">
+        <label for="inputClass">Starting Room:</label>
 
-    </div>
+        <input id="inputClass" list="classData" type="text" autocomplete="off" />
 
-    <script type="module" src="./main.js"></script>
+        <datalist id="classData">
+          <option value="Room A" />
+          <option value="Room B" />
+          <option value="Room C" />
+        </datalist>
+      </div>
+
+      <div id="selectDist">
+        <label for="inputDist">Ideal Distance:</label>
+
+        <input id="inputDist" type="number" />
+      </div>
+
+      <div id="buttonPannel">
+        <button onclick="GenRoutes()">Generate Routes</button>
+
+        <button onclick="location.reload()">Clear Results</button>
+      </div>
+    </div> -->
+
+    <script src="./main.js"></script>
   </body>
 </html>
