@@ -7,4 +7,4 @@ This repository contains a website for generating multiple routes of similar len
 ### By:
 - Grant-JHP
 - maxfire2008
-- Other
+- Elias
